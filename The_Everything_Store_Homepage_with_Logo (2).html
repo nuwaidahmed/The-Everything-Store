@@ -1,0 +1,124 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Everything Store</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #000;
+            background-color: #fff;
+        }
+        header {
+            background-color: #000;
+            color: white;
+            padding: 15px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        header .logo {
+            display: flex;
+            align-items: center;
+        }
+        header .logo img {
+            height: 50px;
+            margin-right: 10px;
+        }
+        header nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: white;
+        }
+        .hero {
+            text-align: center;
+            background-color: #000;
+            color: white;
+            padding: 60px 20px;
+        }
+        .hero h1 {
+            font-size: 2.5em;
+            margin: 0;
+        }
+        .hero p {
+            font-size: 1.2em;
+            margin: 20px 0;
+        }
+        .hero button {
+            padding: 10px 20px;
+            font-size: 1em;
+            background-color: #fff;
+            color: #000;
+            border: 2px solid #000;
+            cursor: pointer;
+        }
+        .categories {
+            display: flex;
+            justify-content: space-around;
+            margin: 20px 0;
+            padding: 20px;
+        }
+        .category {
+            text-align: center;
+            width: 30%;
+        }
+        .category img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            border: 2px solid #000;
+        }
+        footer {
+            background-color: #000;
+            color: white;
+            text-align: center;
+            padding: 15px 0;
+            margin-top: 20px;
+        }
+        footer a {
+            color: #fff;
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="logo.png" alt="The Everything Store Logo">
+            <span>The Everything Store</span>
+        </div>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Shop</a>
+            <a href="#">About</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+    <div class="hero">
+        <h1>Welcome to The Everything Store</h1>
+        <p>Your one-stop shop for everything you need!</p>
+        <button>Shop Now</button>
+    </div>
+    <div class="categories">
+        <div class="category">
+            <img src="https://via.placeholder.com/300" alt="Electronics">
+            <h3>Electronics</h3>
+        </div>
+        <div class="category">
+            <img src="https://via.placeholder.com/300" alt="Fashion">
+            <h3>Fashion</h3>
+        </div>
+        <div class="category">
+            <img src="https://via.placeholder.com/300" alt="Home Essentials">
+            <h3>Home Essentials</h3>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2024 The Everything Store. All rights reserved. | <a href="#">Privacy Policy</a></p>
+    </footer>
+</body>
+</html>
