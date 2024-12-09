@@ -1,0 +1,7 @@
+<div class="product">
+    <img src="product_image.jpg" alt="Product Name">
+    <h3>Product Name</h3>
+    <p>Product Description</p>
+    <p>Price: $XX.XX</p>
+    <button>Add to Cart</button>
+</div>
